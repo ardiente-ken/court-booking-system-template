@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Unbounded:wght@700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { font-family: 'DM Sans', system-ui, sans-serif; }
+button:focus-visible, input:focus-visible, textarea:focus-visible {
+  outline: 3px solid var(--accent, #2a56c6);
+  outline-offset: 2px;
+}
